@@ -1,0 +1,77 @@
+body, head {
+    font-family: 'HvDTrial Brandon Grotesque', sans-serif;
+    background-color: #0096c0;
+    color:#000000;
+    margin: 0;
+}
+
+.header {
+    background-color: #1b75bb;
+    color: #fff;
+    
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+
+    
+}
+
+.container {
+    background-color: #fff;
+    color: #000000;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.button {
+    background-color: #0096c0;
+    color: #fff;
+    border-radius: 100vw;
+    align-self: center;
+    border-width: 0;
+    padding:10px;
+    margin: 10px;
+    margin-top: 25px;
+
+    transition: 90ms ease-out;
+}
+
+.button:hover {
+    background-color: #1b75bb;
+    transform: scale();
+}
+
+.button:active {
+    transform: scale(1.1);
+}
+
+#ticker {
+    position: relative;
+	white-space: nowrap;
+	animation: moveTicker 20s linear infinite;
+	display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 15px;
+}
+
+@keyframes moveTicker
+	{
+		from
+		{
+			transform: translate3d(0%, 0%, 0px);
+			left: 100%;
+		}
+		to
+		{
+			transform: translate3d(-50%, 0%, 0px);
+			left: -50%;
+		}
+    }
