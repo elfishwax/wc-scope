@@ -17,10 +17,15 @@ body, head {
     box-sizing: border-box;
     margin: 0;
     width: 100%;
-
-    
+    align-content: center;
+    column-gap: 100px;
+    color: #fff;
 }
 
+.header a {
+    align-self: center;
+    color: #fff;
+}
 .container {
     background-color: #fff;
     color: #000000;
@@ -39,11 +44,12 @@ body, head {
     margin: 10px;
     margin-top: 25px;
 
-    transition: 90ms ease-out;
+    transition: 150ms ease-in-out;
+    box-shadow: 200px;
 }
 
 .button:hover {
-    background-color: #1b75bb;
+    background-color: #1e669c;
     transform: scale();
 }
 
@@ -60,6 +66,7 @@ body, head {
     font-size: 25px;
     font-weight: 500;
     margin: 15px;
+    font-style: italic;
 }
 
 @keyframes moveTicker
