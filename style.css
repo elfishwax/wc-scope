@@ -1,15 +1,15 @@
 body, head {
     font-family: 'HvDTrial Brandon Grotesque', sans-serif;
-    background-color: #0096c0;
-    color:#000000;
+    background-color: #002540;
+    color:#ffffff;
     margin: 0;
 }
 
 .header {
-    background-color: #1b75bb;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     
-    padding: 20px;
+    padding: 0px;
     height: 100px;
     display: flex;
     position: sticky;
@@ -22,41 +22,68 @@ body, head {
     color: #fff;
 }
 
+.header img {
+    margin: 15px;
+}
+
 .header a {
     align-self: center;
-    color: #fff;
-}
-.container {
-    background-color: #fff;
     color: #000000;
+}
+
+.headerbtn {
+    padding: 20px;
+    margin: 0px;
+    color: #000000;
+    justify-content: center;
+    align-content: center;
+    min-width: 100px;
+    text-align: center;
+
+}
+
+.headerbtn:hover {
+    background-color: #bcbcbc;
+}
+
+.container {
+    background-color: #0096c0;
+    color: #ffffff;
     padding: 10px;
     display: block;
     text-align: center;
 }
 
 .button {
-    background-color: #0096c0;
+    background-color: #1e669c;
     color: #fff;
-    border-radius: 100vw;
     align-self: center;
     border-width: 0;
     padding:10px;
     margin: 10px;
     margin-top: 25px;
 
-    transition: 150ms ease-in-out;
+    font-size: 15px;
+
+    transition: transform 550ms linear(0, 0.013 0.6%, 0.05 1.2%, 0.2 2.5%, 0.949 6.7%, 1.2 8.4%, 1.286 9.2%, 1.35 10%, 1.392 10.8%, 1.411 11.6%, 1.411 12.2%, 1.401 12.8%, 1.343 14.2%, 1.258 15.5%, 1.016 18.7%, 0.914 20.4%, 0.856 21.9%, 0.831 23.5%, 0.834 24.7%, 0.858 26.1%, 0.996 30.7%, 1.037 32.4%, 1.06 33.9%, 1.07 35.4%, 1.061 37.7%, 0.989 43.8%, 0.971 47.2%, 1.012 59.1%, 0.995 70.8%, 1);
     box-shadow: 200px;
 }
+    
 
 .button:hover {
-    background-color: #1e669c;
+    background-color: #002540;
     transform: scale();
 }
 
 .button:active {
-    transform: scale(1.1);
+    transform: scale(.8);
 }
 
+.tickercontainer {
+    margin: 0;
+    padding: 10px;
+    background-color: #1e669c;
+}
 #ticker {
     position: relative;
 	white-space: nowrap;
