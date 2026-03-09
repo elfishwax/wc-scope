@@ -4,7 +4,10 @@ A site to display and keep track of the school bathrooms due to door missing and
 
 
 
-##### How it Works
+### How it Works
 
-Scope is a community driven bathroom tracker made to notify users of potential hazards/inconveniences. Users will be able to access scope via the web, with a webapp planned later in development.
+Scope is a community driven bathroom tracker made to notify users of potential hazards/inconveniences. Users will be able to access Scope via the web, with a webapp planned later in development (possibly).
 
+
+### Contributing
+yes.
