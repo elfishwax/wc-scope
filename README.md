@@ -13,5 +13,7 @@ Scope is a community driven bathroom tracker made to notify users of potential h
 yes.
 
 
+
+
 >[!NOTE]
 > This is a working in progress, nothing complete
